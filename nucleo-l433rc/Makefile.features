@@ -1,0 +1,1 @@
+include $(RIOTBOARD)/nucleo-l433rc/Makefile.features

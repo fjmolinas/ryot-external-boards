@@ -1,0 +1,8 @@
+# This must be a different name than 'board' as it is implemented by 'native'
+USEMODULE += board_external_nucleo-l452re
+
+ifneq (,$(filter netdev_default,$(USEMODULE)))
+  USEMODULE += xbee
+endif
+
+include $(RIOTBOARD)/nucleo-l452re/Makefile.dep

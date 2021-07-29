@@ -1,0 +1,4 @@
+# This must be a different name than 'board' as it is implemented by 'native'
+USEMODULE += board_external_samr21-xpro
+
+include $(RIOTBOARD)/samr21-xpro/Makefile.dep
